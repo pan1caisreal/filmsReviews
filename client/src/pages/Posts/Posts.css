@@ -1,0 +1,9 @@
+.Posts{
+    display: flex;
+    flex-direction: column;
+    min-height: 530px;
+    background: #252425;
+    max-height: 100%;
+}
+
+

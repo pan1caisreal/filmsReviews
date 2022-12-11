@@ -1,0 +1,7 @@
+.AdminPage{
+    display: flex;
+    background: #252425;
+    flex-direction: column;
+    height: 530px;
+    justify-content: center;
+}

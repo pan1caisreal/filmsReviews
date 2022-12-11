@@ -1,0 +1,35 @@
+.filmPage{
+    display: flex;
+    background: #252425;
+    flex-direction: column;
+    height: 100%;
+}
+
+.review .dropdown .btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #181818;
+    border-color: black;
+    margin-left: 20px;
+    width: 400px;
+    margin-right: 20px;
+}
+
+.review{
+    width: 500px;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.review input{
+    width: 400px;
+    color: white;
+}
+
+.review .form-control{
+    color: white;
+    background-color: #181818;
+}
+
+/*.review .*/

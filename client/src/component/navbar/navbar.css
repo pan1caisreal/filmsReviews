@@ -1,0 +1,109 @@
+
+.navbar__{
+    position: sticky;
+    display: flex;
+    top: 0;
+    flex-direction: column;
+    height: 60px;
+    width: 100%;
+    background-color: #252425;
+    border-bottom: 3px solid red;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+
+.navbar_login{
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.navbar_login:hover{
+    transition: 1.2s;
+    color: #bebcbc;
+    cursor: pointer;
+}
+
+.navbar_login:not(:hover)
+{
+    transition: 1.2s;
+}
+
+.navbar_registration{
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.navbar_registration:hover{
+    transition: 1.2s;
+    color: #bebcbc;
+}
+.navbar_registration:not(:hover){
+    transition: 1.2s;
+}
+
+.navbar_logo{
+    margin-left: 30px;
+    width: 55px;
+    height: 55px;
+}
+
+.navbar_header{
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.NavLink{
+    margin: 1rem;
+    color: #fff;
+    transition: 1.2s;
+}
+
+.NavLink:hover{
+    transition: 1.2s;
+    color: #bebcbc;
+}
+
+.navbar_logout{
+    color: #fff;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.navbar_logout:hover{
+    transition: 1.2s;
+    color: #bebcbc;
+}
+.navbar_logout:not(:hover){
+    transition: 1.2s;
+}
+
+.navbar_profile{
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.navbar_profile:hover{
+    transition: 1.2s;
+    color: #bebcbc;
+    cursor: pointer;
+}
+
+.navbar_profile:not(:hover)
+{
+    transition: 1.2s;
+}
+
+.navbar_{
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
